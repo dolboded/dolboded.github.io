@@ -1655,13 +1655,13 @@ p.nominalBounds = new cjs.Rectangle(-89,-47,178,94.1);
 	this.instance = new lib.txtmay();
 	this.instance.setTransform(1,133.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},1).wait(170).to({_off:false,y:157.5,alpha:0},0).wait(1).to({regX:-0.4,regY:0.9,x:0.6,y:148.4,alpha:0.417},0).wait(1).to({y:143.4,alpha:0.627},0).wait(1).to({y:139.9,alpha:0.769},0).wait(1).to({y:137.5,alpha:0.87},0).wait(1).to({y:135.9,alpha:0.939},0).wait(1).to({y:134.8,alpha:0.982},0).wait(1).to({regX:0,regY:0,x:1,y:133.5,alpha:1},0).wait(52).to({regX:-0.4,regY:0.9,x:-0.6,y:134.4},0).wait(1).to({x:-3},0).wait(1).to({regX:0,regY:0,x:-3.8,y:133.5},0).wait(1).to({regX:-0.4,regY:0.9,x:-2.4,y:134.4,alpha:0.989},0).wait(1).to({x:2.3,alpha:0.961},0).wait(1).to({x:9.4,alpha:0.917},0).wait(1).to({x:18.7,alpha:0.86},0).wait(1).to({x:30.3,alpha:0.79},0).wait(1).to({x:44.4,alpha:0.705},0).wait(1).to({x:61.6,alpha:0.601},0).wait(1).to({x:82.9,alpha:0.471},0).wait(1).to({x:111.3,alpha:0.299},0).wait(1).to({regX:0,regY:0,x:161,y:133.5,alpha:0},0).wait(9));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},1).wait(170).to({_off:false,regX:-0.1,scaleX:1.17,scaleY:1.17,x:0.1,y:160.7,alpha:0},0).wait(1).to({regX:-0.4,regY:0.9,x:-0.3,y:150,alpha:0.417},0).wait(1).to({y:144.1,alpha:0.627},0).wait(1).to({y:140.1,alpha:0.769},0).wait(1).to({y:137.3,alpha:0.87},0).wait(1).to({y:135.4,alpha:0.939},0).wait(1).to({y:134.2,alpha:0.982},0).wait(1).to({regX:-0.1,regY:0.1,x:0.1,y:132.7,alpha:1},0).wait(52).to({regX:-0.4,regY:0.9,x:-1.7,y:133.6},0).wait(1).to({x:-4.4},0).wait(1).to({regX:0,regY:0,x:-5.5,y:132.6},0).wait(1).to({regX:-0.4,regY:0.9,x:-3.8,y:133.6,alpha:0.989},0).wait(1).to({x:1.7,alpha:0.961},0).wait(1).to({x:10,alpha:0.917},0).wait(1).to({x:20.9,alpha:0.86},0).wait(1).to({x:34.5,alpha:0.79},0).wait(1).to({x:51,alpha:0.705},0).wait(1).to({x:71.1,alpha:0.601},0).wait(1).to({x:96,alpha:0.471},0).wait(1).to({x:129.2,alpha:0.299},0).wait(1).to({regX:0,regY:0,x:187.3,y:132.6,alpha:0},0).wait(9));
 
 	// Regist
 	this.instance_1 = new lib.txtHurry();
 	this.instance_1.setTransform(1.3,118.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:true},1).wait(168).to({_off:false,y:142.4,alpha:0},0).wait(1).to({regX:-0.3,regY:1.2,x:1,y:133.5,alpha:0.417},0).wait(1).to({y:128.5,alpha:0.627},0).wait(1).to({y:125.1,alpha:0.769},0).wait(1).to({y:122.7,alpha:0.87},0).wait(1).to({y:121,alpha:0.939},0).wait(1).to({y:120,alpha:0.982},0).wait(1).to({regX:0,regY:0,x:1.3,y:118.4,alpha:1},0).wait(54).to({regX:-0.3,regY:1.2,x:-0.2,y:119.6},0).wait(1).to({x:-2.5},0).wait(1).to({regX:0,regY:0,x:-3.5,y:118.4},0).wait(1).to({regX:-0.3,regY:1.2,x:-2,y:119.6,alpha:0.989},0).wait(1).to({x:2.7,alpha:0.961},0).wait(1).to({x:9.8,alpha:0.917},0).wait(1).to({x:19.2,alpha:0.86},0).wait(1).to({x:30.8,alpha:0.79},0).wait(1).to({x:44.9,alpha:0.705},0).wait(1).to({x:62,alpha:0.601},0).wait(1).to({x:83.4,alpha:0.471},0).wait(1).to({x:111.8,alpha:0.299},0).wait(1).to({regX:0,regY:0,x:161.3,y:118.4,alpha:0},0).wait(9));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:true},1).wait(168).to({_off:false,scaleX:1.17,scaleY:1.17,x:0.6,y:142.9,alpha:0},0).wait(1).to({regX:-0.3,regY:1.2,x:0.2,y:132.6,alpha:0.417},0).wait(1).to({y:126.7,alpha:0.627},0).wait(1).to({y:122.7,alpha:0.769},0).wait(1).to({y:119.8,alpha:0.87},0).wait(1).to({y:117.9,alpha:0.939},0).wait(1).to({y:116.7,alpha:0.982},0).wait(1).to({regX:0,regY:0,x:0.6,y:114.9,alpha:1},0).wait(54).to({regX:-0.3,regY:1.2,x:-1.2,y:116.3},0).wait(1).to({x:-3.9},0).wait(1).to({regX:0,regY:0,x:-5,y:114.9},0).wait(1).to({regX:-0.3,regY:1.2,x:-3.3,y:116.3,alpha:0.989},0).wait(1).to({x:2.2,alpha:0.961},0).wait(1).to({x:10.6,alpha:0.917},0).wait(1).to({x:21.5,alpha:0.86},0).wait(1).to({x:35.1,alpha:0.79},0).wait(1).to({x:51.6,alpha:0.705},0).wait(1).to({x:71.6,alpha:0.601},0).wait(1).to({x:96.6,alpha:0.471},0).wait(1).to({x:129.8,alpha:0.299},0).wait(1).to({regX:0,regY:0,x:187.7,y:114.9,alpha:0},0).wait(9));
 
 	// 16-18
 	this.instance_2 = new lib.TXTOne();
@@ -1677,9 +1677,9 @@ p.nominalBounds = new cjs.Rectangle(-89,-47,178,94.1);
 
 	// pattern
 	this.instance_4 = new lib.pattern();
-	this.instance_4.setTransform(1.2,54.4,0.69,0.69,0,0,0,0.5,-7.3);
+	this.instance_4.setTransform(8.9,45.8,0.621,0.621,0,0,0,0.5,-7.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({_off:true},1).wait(69).to({_off:false,y:88},0).wait(92).to({regX:-0.1,regY:0.3,x:0.8,y:94.5},0).wait(1).to({y:96.8},0).wait(1).to({regX:0.5,regY:-7.3,x:1.2,y:92.8},0).wait(1).to({regX:-0.1,regY:0.3,x:0.8,y:97},0).wait(1).to({y:94.1},0).wait(1).to({y:89.9},0).wait(1).to({y:84.7},0).wait(1).to({y:79},0).wait(1).to({y:73.3},0).wait(1).to({y:68},0).wait(1).to({y:63.7},0).wait(1).to({y:60.7},0).wait(1).to({regX:0.5,regY:-7.3,x:1.2,y:54.4},0).wait(58).to({regX:-0.1,regY:0.3,x:-0.4,y:59.7},0).wait(1).to({x:-2.8},0).wait(1).to({regX:0.5,regY:-7.3,x:-3.6,y:54.4},0).wait(1).to({regX:-0.1,regY:0.3,x:-2.2,y:59.7,alpha:0.989},0).wait(1).to({x:2.5,alpha:0.961},0).wait(1).to({x:9.6,alpha:0.917},0).wait(1).to({x:18.9,alpha:0.86},0).wait(1).to({x:30.5,alpha:0.79},0).wait(1).to({x:44.6,alpha:0.705},0).wait(1).to({x:61.8,alpha:0.601},0).wait(1).to({x:83.1,alpha:0.471},0).wait(1).to({x:111.5,alpha:0.299},0).wait(1).to({regX:0.5,regY:-7.3,x:161.2,y:54.4,alpha:0},0).wait(7));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({_off:true},1).wait(69).to({_off:false,regY:-7.3,x:1.1,y:81.1},0).wait(92).to({regX:-0.1,regY:0.3,x:0.7,y:86.1},0).wait(1).to({y:86.7},0).wait(1).to({regX:0.5,regY:-7.4,x:1.1,y:82.3},0).wait(1).to({regX:-0.1,regY:0.3,x:0.7,y:86.2},0).wait(1).to({y:83.9},0).wait(1).to({y:80.4},0).wait(1).to({y:76.2},0).wait(1).to({y:71.5},0).wait(1).to({y:66.8},0).wait(1).to({y:62.6},0).wait(1).to({y:59},0).wait(1).to({y:56.6},0).wait(1).to({regX:0.5,regY:-7.4,x:1.1,y:51},0).wait(58).to({regX:-0.1,regY:0.3,x:-0.4,y:55.8},0).wait(1).to({x:-2.5},0).wait(1).to({regX:0.4,regY:-7.4,x:-3.3,y:51},0).wait(1).to({regX:-0.1,regY:0.3,x:-1.9,y:55.8,alpha:0.989},0).wait(1).to({x:2.3,alpha:0.961},0).wait(1).to({x:8.7,alpha:0.917},0).wait(1).to({x:17.1,alpha:0.86},0).wait(1).to({x:27.5,alpha:0.79},0).wait(1).to({x:40.2,alpha:0.705},0).wait(1).to({x:55.7,alpha:0.601},0).wait(1).to({x:74.9,alpha:0.471},0).wait(1).to({x:100.4,alpha:0.299},0).wait(1).to({regX:0.5,regY:-7.4,x:145.1,y:51,alpha:0},0).wait(7));
 
 	// logo
 	this.instance_5 = new lib.logo();
@@ -1712,7 +1712,7 @@ p.nominalBounds = new cjs.Rectangle(-89,-47,178,94.1);
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1).to({_off:false},0).wait(55).to({alpha:0},10).to({_off:true},1).wait(184));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-147.1,-135.9,295.8,275.8);
+p.nominalBounds = new cjs.Rectangle(-124.5,-135.9,266.1,275.8);
 
 
 // stage content:
