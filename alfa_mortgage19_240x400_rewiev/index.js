@@ -520,7 +520,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance.setTransform(59.4,264.9,1,1,0,0,0,-2.6,24.9);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(32).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(3).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(18).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 53
 	this.instance_1 = new lib.Percent("synched",0,false);
@@ -528,7 +528,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_1.setTransform(121.4,216.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(21).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(14).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(15).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(6).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 5
 	this.instance_2 = new lib.Percent("synched",0,false);
@@ -536,7 +536,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_2.setTransform(-2.6,216.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(12).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(23).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(12).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(9).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 43
 	this.instance_3 = new lib.Percent("synched",0,false);
@@ -544,7 +544,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_3.setTransform(121.4,168.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(27).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(8).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(6).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(15).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 42
 	this.instance_4 = new lib.Percent("synched",0,false);
@@ -552,7 +552,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_4.setTransform(59.4,168.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(15).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(20).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(15).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(6).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 4
 	this.instance_5 = new lib.Percent("synched",0,false);
@@ -560,7 +560,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_5.setTransform(-2.6,168.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(29).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(6).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(3).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(18).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 32
 	this.instance_6 = new lib.Percent("synched",0,false);
@@ -568,7 +568,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_6.setTransform(59.4,120.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(24).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(11).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(6).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(15).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 23
 	this.instance_7 = new lib.Percent("synched",0,false);
@@ -576,7 +576,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_7.setTransform(121.4,72.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(12).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(23).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(12).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(9).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 2
 	this.instance_8 = new lib.Percent("synched",0,false);
@@ -584,7 +584,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_8.setTransform(-2.6,72.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(15).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(20).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(15).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(6).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 13
 	this.instance_9 = new lib.Percent("synched",0,false);
@@ -592,7 +592,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_9.setTransform(121.4,24.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(18).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(17).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(12).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(9).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 12
 	this.instance_10 = new lib.Percent("synched",0,false);
@@ -600,7 +600,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_10.setTransform(59.4,24.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(21).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(14).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(9).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(12).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 22
 	this.instance_11 = new lib.Percent("synched",0,false);
@@ -608,7 +608,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_11.setTransform(59.4,72.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(15).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(20).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(9).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(12).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 6
 	this.instance_12 = new lib.Percent("synched",0,false);
@@ -616,7 +616,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_12.setTransform(-2.6,264.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_12._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(6).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(29).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(6).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(15).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 52
 	this.instance_13 = new lib.Percent("synched",0,false);
@@ -624,7 +624,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_13.setTransform(59.4,216.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(12).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(23).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(12).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(9).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 33
 	this.instance_14 = new lib.Percent("synched",0,false);
@@ -632,7 +632,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_14.setTransform(121.4,120.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(9).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(26).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(9).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(12).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 3
 	this.instance_15 = new lib.Percent("synched",0,false);
@@ -640,7 +640,7 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_15.setTransform(-2.6,120.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_15._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(6).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(29).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(6).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(15).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 63
 	this.instance_16 = new lib.Percent("synched",0,false);
@@ -648,14 +648,14 @@ p.nominalBounds = new cjs.Rectangle(-85,-80,170,160);
 	this.instance_16.setTransform(121.4,264.9,1,1,0,0,0,-2.6,24.9);
 	this.instance_16._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(3).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(32).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(3).to({_off:false},0).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(18).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 	// percent 1
 	this.instance_17 = new lib.Percent("synched",0,false);
 	this.instance_17.parent = this;
 	this.instance_17.setTransform(-2.6,24.9,1,1,0,0,0,-2.6,24.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(35).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(6).to({mode:"single",startPosition:7},0).wait(2).to({mode:"synched",startPosition:8,loop:false},0).wait(7).to({mode:"single",startPosition:15},0).wait(21).to({mode:"synched",startPosition:17,loop:false},0).wait(17));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-28.4,-23.2,180.9,286.5);
@@ -731,7 +731,7 @@ p.nominalBounds = new cjs.Rectangle(-175.9,-156.6,342.8,313.2);
 	this.instance.parent = this;
 	this.instance.setTransform(85,27);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(372));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(343));
 
 	// LEGAL
 	this.instance_1 = new lib.LegalMov("synched",0,false);
@@ -739,7 +739,7 @@ p.nominalBounds = new cjs.Rectangle(-175.9,-156.6,342.8,313.2);
 	this.instance_1.setTransform(118,211);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(271).to({_off:false},0).wait(101));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(242).to({_off:false},0).wait(101));
 
 	// BTN
 	this.instance_2 = new lib.butt();
@@ -748,7 +748,7 @@ p.nominalBounds = new cjs.Rectangle(-175.9,-156.6,342.8,313.2);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(271).to({_off:false},0).to({scaleX:1,scaleY:1,x:119,y:356,alpha:1},10,cjs.Ease.sineOut).wait(75).to({scaleX:0.8,scaleY:0.8,x:118.95,y:355.95,alpha:0},11,cjs.Ease.circIn).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(242).to({_off:false},0).to({scaleX:1,scaleY:1,x:119,y:356,alpha:1},10,cjs.Ease.sineOut).wait(75).to({scaleX:0.8,scaleY:0.8,x:118.95,y:355.95,alpha:0},11,cjs.Ease.circIn).wait(5));
 
 	// TXT02
 	this.instance_3 = new lib.TXT02("synched",0,false);
@@ -756,7 +756,7 @@ p.nominalBounds = new cjs.Rectangle(-175.9,-156.6,342.8,313.2);
 	this.instance_3.setTransform(90.7,167.1,1,1,0,0,0,74.7,36.1);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(200).to({_off:false},0).wait(172));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(171).to({_off:false},0).wait(172));
 
 	// LAMP
 	this.instance_4 = new lib.lampMov("single",0);
@@ -764,14 +764,14 @@ p.nominalBounds = new cjs.Rectangle(-175.9,-156.6,342.8,313.2);
 	this.instance_4.setTransform(299,219);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(10).to({_off:false},0).to({x:219},11,cjs.Ease.circOut).wait(174).to({mode:"synched",loop:false},0).wait(63).to({startPosition:47},0).to({x:349},13,cjs.Ease.circIn).to({_off:true},1).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(10).to({_off:false},0).to({x:219},11,cjs.Ease.circOut).wait(145).to({mode:"synched",loop:false},0).wait(63).to({startPosition:47},0).to({x:349},13,cjs.Ease.circIn).to({_off:true},1).wait(100));
 
 	// Layer_11 (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
 	var mask_graphics_0 = new cjs.Graphics().p("AvOW3MAAAguEITggDIATPdIKqAHIgue9g");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:109.275,y:208.225}).wait(206).to({graphics:null,x:0,y:0}).wait(166));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:109.275,y:208.225}).wait(177).to({graphics:null,x:0,y:0}).wait(166));
 
 	// PERCENTS
 	this.instance_5 = new lib.PercentMov("synched",0,false);
@@ -785,21 +785,21 @@ p.nominalBounds = new cjs.Rectangle(-175.9,-156.6,342.8,313.2);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(106).to({_off:false},0).wait(89).to({startPosition:66},0).to({alpha:0},10).to({_off:true},1).wait(166));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(106).to({_off:false},0).wait(60).to({startPosition:52},0).to({alpha:0},10).to({_off:true},1).wait(166));
 
 	// TXT01
 	this.instance_6 = new lib.TXT01("synched",0,false);
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(109.9,245.2,1,1,0,0,0,90.9,113.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({_off:true},119).wait(253));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({_off:true},119).wait(224));
 
 	// BG
 	this.instance_7 = new lib.BG();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(120,200);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(372));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(343));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-1010,-7,1437.4,424);
