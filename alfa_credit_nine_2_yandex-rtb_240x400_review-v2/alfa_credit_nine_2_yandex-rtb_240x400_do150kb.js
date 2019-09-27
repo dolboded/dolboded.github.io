@@ -224,16 +224,18 @@ p.nominalBounds = new cjs.Rectangle(-610,-71,1219,141);
 	// MAN
 	this.instance_2 = new lib.MAN();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(150,246);
+	this.instance_2.setTransform(230,276);
+	this.instance_2.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(254).to({x:290,y:296},39,cjs.Ease.cubicInOut).to({_off:true},1).wait(117));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:150,y:246,alpha:1},26,cjs.Ease.cubicOut).wait(228).to({x:230,y:276,alpha:0},39,cjs.Ease.cubicInOut).to({_off:true},1).wait(117));
 
 	// CLOUD
 	this.instance_3 = new lib.CLOUDS("synched",0,false);
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(151.5,361.5);
+	this.instance_3.setTransform(151,322);
+	this.instance_3.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(411));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({y:362,alpha:1,startPosition:26},26,cjs.Ease.cubicOut).wait(385));
 
 	// LEGAL
 	this.instance_4 = new lib.legal_1("synched",0);
@@ -257,7 +259,7 @@ p.nominalBounds = new cjs.Rectangle(-610,-71,1219,141);
 	this.instance_6.setTransform(320,173);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(19).to({_off:false},0).to({x:65},37,cjs.Ease.cubicInOut).wait(80).to({startPosition:0},0).to({x:-220},39,cjs.Ease.quartInOut).wait(236));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(19).to({_off:false},0).to({x:65},37,cjs.Ease.cubicOut).wait(80).to({startPosition:0},0).to({x:-220},39,cjs.Ease.quartInOut).wait(236));
 
 	// BG
 	this.instance_7 = new lib.BG();
@@ -267,7 +269,7 @@ p.nominalBounds = new cjs.Rectangle(-610,-71,1219,141);
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(411));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-458.5,-40,1223.5,500);
+p.nominalBounds = new cjs.Rectangle(-459,-40,1224,480);
 
 
 // stage content:
@@ -304,7 +306,7 @@ p.nominalBounds = new cjs.Rectangle(-458.5,-40,1223.5,500);
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(21.5,160,739,271.5);
+p.nominalBounds = new cjs.Rectangle(21,160,739,280);
 // library properties:
 lib.properties = {
 	id: 'F66FE7A2AC3D5941AE55BF9D2D3ACE18',
