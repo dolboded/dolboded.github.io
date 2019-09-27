@@ -227,23 +227,23 @@ p.nominalBounds = new cjs.Rectangle(-610,-71,1219,141);
 	this.instance_2.setTransform(230,276);
 	this.instance_2.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:150,y:246,alpha:1},26,cjs.Ease.cubicOut).wait(228).to({x:230,y:276,alpha:0},39,cjs.Ease.cubicInOut).to({_off:true},1).wait(117));
-
-	// CLOUD
-	this.instance_3 = new lib.CLOUDS("synched",0,false);
-	this.instance_3.parent = this;
-	this.instance_3.setTransform(151,322);
-	this.instance_3.alpha = 0;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({y:362,alpha:1,startPosition:26},26,cjs.Ease.cubicOut).wait(385));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:150,y:246,alpha:1},26,cjs.Ease.cubicOut).wait(229).to({regX:-0.5,x:149.65,y:246.05},0).wait(1).to({x:149.95,y:246.15},0).wait(1).to({x:150.3,y:246.3},0).wait(1).to({x:150.8,y:246.45},0).wait(1).to({x:151.4,y:246.7},0).wait(1).to({x:152.15,y:247},0).wait(1).to({x:153.05,y:247.3},0).wait(1).to({x:154.15,y:247.7},0).wait(1).to({x:155.4,y:248.2},0).wait(1).to({x:156.9,y:248.75},0).wait(1).to({x:158.65,y:249.4},0).wait(1).to({x:160.7,y:250.2},0).wait(1).to({x:163.15,y:251.1},0).wait(1).to({x:165.95,y:252.15},0).wait(1).to({x:169.3,y:253.4},0).wait(1).to({x:173.15,y:254.85},0).wait(1).to({x:177.65,y:256.55},0).wait(1).to({x:182.75,y:258.45},0).wait(1).to({x:188.25,y:260.55},0).wait(1).to({x:193.9,y:262.65},0).wait(1).to({x:199.35,y:264.7},0).wait(1).to({x:204.35,y:266.55},0).wait(1).to({x:208.7,y:268.2},0).wait(1).to({x:212.45,y:269.6},0).wait(1).to({x:215.65,y:270.8},0).wait(1).to({x:218.3,y:271.8},0).wait(1).to({x:220.6,y:272.65},0).wait(1).to({x:222.5,y:273.4},0).wait(1).to({regX:0,x:224.6,y:274},0).wait(1).to({regX:-0.5,x:225.3,y:274.45,alpha:0.7732},0).wait(1).to({x:226.3,y:274.8,alpha:0.5846},0).wait(1).to({x:227.15,y:275.1,alpha:0.4294},0).wait(1).to({x:227.85,y:275.35,alpha:0.3032},0).wait(1).to({x:228.4,y:275.55,alpha:0.2028},0).wait(1).to({x:228.8,y:275.7,alpha:0.1252},0).wait(1).to({x:229.1,y:275.85,alpha:0.068},0).wait(1).to({x:229.3,y:275.9,alpha:0.0293},0).wait(1).to({x:229.45,y:275.95,alpha:0.0071},0).wait(1).to({regX:0,x:230,y:276,alpha:0},0).to({_off:true},1).wait(117));
 
 	// LEGAL
-	this.instance_4 = new lib.legal_1("synched",0);
-	this.instance_4.parent = this;
-	this.instance_4.setTransform(362,383);
-	this.instance_4._off = true;
+	this.instance_3 = new lib.legal_1("synched",0);
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(362,383);
+	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(254).to({_off:false},0).to({x:120},39,cjs.Ease.cubicInOut).wait(78).to({startPosition:0},0).to({x:-180},39,cjs.Ease.quartInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(254).to({_off:false},0).to({x:120},39,cjs.Ease.cubicInOut).wait(78).to({startPosition:0},0).to({x:-180},39,cjs.Ease.quartInOut).wait(1));
+
+	// CLOUD
+	this.instance_4 = new lib.CLOUDS("synched",0,false);
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(151,362);
+	this.instance_4.alpha = 0;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({alpha:1,startPosition:39},39).wait(319).to({startPosition:358},0).to({alpha:0,startPosition:410},52).wait(1));
 
 	// TXT02
 	this.instance_5 = new lib.TXT02("synched",0);
