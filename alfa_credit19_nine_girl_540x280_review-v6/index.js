@@ -342,7 +342,7 @@ p.nominalBounds = new cjs.Rectangle(-43,-27,172,54);
 	this.instance_3.setTransform(421,58,0.9,0.9);
 	this.instance_3.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({scaleX:1,scaleY:1,x:437,alpha:1,startPosition:24},24).wait(215).to({startPosition:239},0).to({alpha:0,startPosition:263},24,cjs.Ease.cubicIn).to({_off:true},1).wait(144));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({scaleX:1,scaleY:1,x:437,alpha:1,startPosition:24},24).wait(95).to({startPosition:119},0).to({alpha:0,startPosition:143},24,cjs.Ease.cubicIn).to({_off:true},1).wait(264));
 
 	// BIRD1
 	this.instance_4 = new lib.bird1mov("synched",0);
@@ -350,7 +350,7 @@ p.nominalBounds = new cjs.Rectangle(-43,-27,172,54);
 	this.instance_4.setTransform(20,152,0.9,0.9);
 	this.instance_4.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({scaleX:1,scaleY:1,x:36,alpha:1,startPosition:24},24).wait(215).to({startPosition:239},0).to({alpha:0,startPosition:263},24,cjs.Ease.cubicIn).to({_off:true},1).wait(144));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({scaleX:1,scaleY:1,x:36,alpha:1,startPosition:24},24).wait(95).to({startPosition:119},0).to({alpha:0,startPosition:143},24,cjs.Ease.cubicIn).to({_off:true},1).wait(264));
 
 	// 5
 	this.instance_5 = new lib.txt02_5();
