@@ -324,7 +324,7 @@ p.nominalBounds = new cjs.Rectangle(-21.5,-52.8,43.1,105.69999999999999);
 	// LEGAL
 	this.instance_2 = new lib.LegalMOV("synched",0,false);
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(122,353,1,1,0,0,0,105.5,24);
+	this.instance_2.setTransform(122.5,353,1,1,0,0,0,105.5,24);
 	this.instance_2._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(249).to({_off:false},0).to({_off:true},100).wait(1));
