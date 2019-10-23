@@ -332,7 +332,7 @@ p.nominalBounds = new cjs.Rectangle(-21.5,-52.8,43.1,105.69999999999999);
 	// TXT02
 	this.instance_3 = new lib.TXT02("synched",0,false);
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(99.1,336.65,1,1,0,0,0,82.1,37.5);
+	this.instance_3.setTransform(99.1,337.5,1,1,0,0,0,82.1,37.5);
 	this.instance_3._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(133).to({_off:false},0).to({_off:true},115).wait(102));
@@ -349,7 +349,7 @@ p.nominalBounds = new cjs.Rectangle(-21.5,-52.8,43.1,105.69999999999999);
 	// TXT01
 	this.instance_5 = new lib.TXT01("synched",0,false);
 	this.instance_5.parent = this;
-	this.instance_5.setTransform(99.1,336.65,1,1,0,0,0,82.1,37.5);
+	this.instance_5.setTransform(99.1,337.5,1,1,0,0,0,82.1,37.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({_off:true},115).wait(235));
 
