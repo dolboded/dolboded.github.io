@@ -1,0 +1,119 @@
+<!-- Sizmek (DCO), 2018-12-04 -->
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>index</title>
+	<meta charset="UTF-8">
+	<meta name="ad.size" content="width=240,height=400">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+	<script type="text/javascript" src="https://secure-ds.serving-sys.com/BurstingScript/adKit/adkit.js"></script>
+	<script type="text/javascript" src="https://secure-ds.serving-sys.com/BurstingcachedScripts/libraries/createjs/createjs-2015.11.26.min.js"></script>
+	<style type="text/css">
+		body { margin:0px; overflow-x: hidden; }
+		#canvas { cursor: pointer; width: 240px; height: 400px; }
+	</style>
+<script src="index.js"></script>
+	<script>
+	function isLocal(){
+	  return /(sizmek\.ru|file\:\/\/\/|localhost|192\.168\.|127\.0\.0\.1)/.test(window.location.href);
+	}
+	function clickthrough1(){
+		EB.clickthrough();
+		if(isLocal()){
+			console.log('> click');
+		}
+	}
+	function initEB() {
+		adkit.onReady(startAd);
+	}
+	function getDcoData(column){
+		return adkit.getSVData(column);
+	}
+	function startAd() {
+		// Start animation
+		init();
+      // Click
+      document.getElementById('animation_container').addEventListener('click', clickthrough1);
+	}
+	if(isLocal()){
+		console.log(' -- Sizmek (DCO), 2018-12-04 -- ');
+	}
+	var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+	function init() {
+		canvas = document.getElementById("canvas");
+		anim_container = document.getElementById("animation_container");
+		dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("F66FE7A2AC3D5941AE55BF9D2D3ACE18");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+	}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages(); 
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }  
+}
+function handleComplete(evt,comp) {
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.credit88_SIZMEK_DCO_240x400_do150kbм2();
+	stage = new lib.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.enableMouseOver();   
+		fnStartAnimation = function() {
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage);
+	}        
+	function makeResponsive(isResp, respDim, isScale, scaleType) {		
+		var lastW, lastH, lastS=1;		
+		window.addEventListener('resize', resizeCanvas);		
+		resizeCanvas();		
+		function resizeCanvas() {			
+			var w = lib.properties.width, h = lib.properties.height;			
+			var iw = window.innerWidth, ih=window.innerHeight;			
+			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+			if(isResp) {                
+				if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+					sRatio = lastS;                
+				}				
+				else if(!isScale) {					
+					if(iw<w || ih<h)						
+						sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==1) {					
+					sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==2) {					
+					sRatio = Math.max(xRatio, yRatio);				
+				}			
+			}			
+			canvas.width = w*pRatio*sRatio;			
+			canvas.height = h*pRatio*sRatio;
+			canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';				
+			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+			stage.scaleX = pRatio*sRatio;			
+			stage.scaleY = pRatio*sRatio;			
+			lastW = iw; lastH = ih; lastS = sRatio;		
+		}
+	}
+	makeResponsive(false,'both',false,2);
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+	</script>
+	</head>
+	<body onload="initEB();">
+		<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:240px; height:400px">
+			<canvas id="canvas" width="240" height="400" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+			<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:240px; height:400px; position: absolute; left: 0px; top: 0px; display: block;"></div>
+		</div>
+	</body>
+</html>
