@@ -277,14 +277,21 @@ p.nominalBounds = new cjs.Rectangle(-120,-200,240,400);
 (lib.bndrchk_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
+	// Layer_2
+	this.shape = new cjs.Shape();
+	this.shape.graphics.lf(["#000000","rgba(0,0,0,0)"],[0,1],-17.5,-12.2,-17.5,-92.1).s().p("EgmpAZYMAAAgyvMBNTAAAMAAAAyvg");
+	this.shape.setTransform(2.375,229.375);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
 	// Layer_1
 	this.instance = new lib.bndrchk();
 	this.instance.parent = this;
-	this.instance.setTransform(-240.5,-240.5);
+	this.instance.setTransform(-241,-241);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.bndrchk_1, new cjs.Rectangle(-240.5,-240.5,481,481), null);
+}).prototype = getMCSymbolPrototype(lib.bndrchk_1, new cjs.Rectangle(-245,-241,494.8,632.8), null);
 
 
 (lib.BG_BLCK = function(mode,startPosition,loop) {
@@ -562,7 +569,7 @@ p.nominalBounds = new cjs.Rectangle(-116,-99,232.6,202.5);
 	this.instance_6.setTransform(170,242);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(97).to({_off:false},0).wait(342).to({alpha:0.9994},0).wait(1).to({alpha:0.9976},0).wait(1).to({alpha:0.9943},0).wait(1).to({alpha:0.9895},0).wait(1).to({alpha:0.983},0).wait(1).to({alpha:0.9745},0).wait(1).to({alpha:0.9638},0).wait(1).to({alpha:0.9505},0).wait(1).to({alpha:0.9344},0).wait(1).to({alpha:0.9149},0).wait(1).to({alpha:0.8915},0).wait(1).to({alpha:0.8633},0).wait(1).to({alpha:0.8294},0).wait(1).to({alpha:0.7883},0).wait(1).to({alpha:0.7379},0).wait(1).to({alpha:0.6752},0).wait(1).to({alpha:0.5948},0).wait(1).to({alpha:0.487},0).wait(1).to({alpha:0.3274},0).wait(1).to({alpha:0},0).to({_off:true},1).wait(121));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(97).to({_off:false},0).wait(342).to({regX:2.4,regY:75.4,x:172.4,y:317.4,alpha:0.9994},0).wait(1).to({alpha:0.9976},0).wait(1).to({alpha:0.9943},0).wait(1).to({alpha:0.9895},0).wait(1).to({alpha:0.983},0).wait(1).to({alpha:0.9745},0).wait(1).to({alpha:0.9638},0).wait(1).to({alpha:0.9505},0).wait(1).to({alpha:0.9344},0).wait(1).to({alpha:0.9149},0).wait(1).to({alpha:0.8915},0).wait(1).to({alpha:0.8633},0).wait(1).to({alpha:0.8294},0).wait(1).to({alpha:0.7883},0).wait(1).to({alpha:0.7379},0).wait(1).to({alpha:0.6752},0).wait(1).to({alpha:0.5948},0).wait(1).to({alpha:0.487},0).wait(1).to({alpha:0.3274},0).wait(1).to({regX:0,regY:0,x:170,y:242,alpha:0},0).to({_off:true},1).wait(121));
 
 	// LOGOGROUP
 	this.instance_7 = new lib.LOGOGROUP("synched",0);
@@ -579,7 +586,7 @@ p.nominalBounds = new cjs.Rectangle(-116,-99,232.6,202.5);
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(580));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-1622,-60.3,2256.8,671.3);
+p.nominalBounds = new cjs.Rectangle(-1622,-60.3,2256.8,694.0999999999999);
 
 
 // stage content:
